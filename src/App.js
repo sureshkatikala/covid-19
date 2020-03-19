@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import map from './map.js'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         </a>
       </header> */}
       <div className="jobs" >
-        <p> This is react webpage </p>
+        <map />
         </div>
     </div>
   );
